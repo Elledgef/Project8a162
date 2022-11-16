@@ -4,7 +4,7 @@
 #Description: This code gets a term of sequence by counting how many their are of each digit from the previous term
 
 
-def count_seg():
+def count_seq():
     """ This function generates a sequence that counts how many there are of each digit from the previous term"""
     seq = "2"
     yield seq
