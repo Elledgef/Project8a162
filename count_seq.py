@@ -11,7 +11,7 @@ def count_seq():
     while True:
         string = seq
         seq = " "
-        while len(seq) > 0:
+        while len(seq) >= 0:
             first = string[0]
             count = 1
             while count < len(seq) and string[1] == string[0]:
